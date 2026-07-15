@@ -11,8 +11,8 @@
 
 ## 🌟 Live Demo & Deployment
 This project utilizes a dual-deployment architecture for optimal accessibility:
-* **Interactive Landing Page (GitHub Pages):** (https://anonymous20252029-oss.github.io/TCM-TopoGraph-Framework/)
-* **Live AI Dashboard (Streamlit Cloud):** [Insert your Streamlit Cloud URL here]
+* **Interactive Landing Page (GitHub Pages):** https://anonymous20252029-oss.github.io/TCM-TopoGraph-Framework/
+* **Live AI Dashboard (Streamlit Cloud):** https://tcm-topograph-framework-bs9bwfwue4s379cempe7u3.streamlit.app/
 
 ---
 
