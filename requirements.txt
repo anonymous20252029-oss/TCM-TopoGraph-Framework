@@ -1,10 +1,10 @@
-torch
-torch_geometric
+streamlit
 pandas
 numpy
+torch
+torch_geometric
+networkx
 matplotlib
-scikit-learn
-streamlit
 plotly
 pyvis
 scipy
