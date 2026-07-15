@@ -5,7 +5,7 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B.svg)](https://streamlit.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**TCM-TopoGraph** is an Explainable AI (XAI) framework that utilizes Geometric Deep Learning (GDL) and Persistent Homology to model the complex, non-Euclidean physiological network of the human meridian system[cite: 3, 4]. By transforming noisy physiological and pharmacological data into robust topological representations, this framework bridges computational topology with clinical praxis[cite: 3].
+**TCM-TopoGraph** is an Explainable AI (XAI) framework that utilizes Geometric Deep Learning (GDL) and Persistent Homology to model the complex, non-Euclidean physiological network of the human meridian system ransforming noisy physiological and pharmacological data into robust topological representations, this framework bridges computational topology with clinical praxis.
 
 ---
 
@@ -17,21 +17,21 @@ This project utilizes a dual-deployment architecture for optimal accessibility:
 ---
 
 ## 📊 Dataset Characteristics
-The framework is built upon a real-world, multi-modal heterogeneous graph[cite: 1, 3]:
-* **Anatomical Nodes (361 Acupoints):** Features multi-modal embeddings including spatial coordinates and physiological priors[cite: 2, 3].
-* **Pharmacological Nodes (714 Herbs):** Contains biochemical indices and native medicinal tropism data[cite: 2, 3].
+The framework is built upon a real-world, multi-modal heterogeneous graph:
+* **Anatomical Nodes (361 Acupoints):** Features multi-modal embeddings including spatial coordinates and physiological priors.
+* **Pharmacological Nodes (714 Herbs):** Contains biochemical indices and native medicinal tropism data.
 * **Directed Flow Edges:** Represents sequential physiological signal propagation along the 14 primary meridians.
 * **Heterogeneous Tropism Edges:** Bipartite mappings connecting external pharmacological herbs to specific anatomical target networks.
 
 ---
 
 ## ⚙️ Core Analytical Modules
-The execution engine (`app.py`) provides four primary interactive modules[cite: 4]:
+The execution engine (`app.py`) provides four primary interactive modules:
 
-1. **In-silico Discovery (Topo-GNN):** Calculates Geometric Tropism Rankings and extracts "Novel Targets" using PyVis heterogeneous pathways[cite: 4].
-2. **3D Manifold Mapping:** Projects physiological pathways onto a curved 3D WebGL space, proving the utilization of Geodesic distances over classical Euclidean metrics[cite: 4].
-3. **TDA Filtration Simulator:** Interactively tracks real-time changes in Betti numbers (β₀ for disconnected components, β₁ for topological cycles) across varying distance radiuses[cite: 4].
-4. **Real-Time Analytics:** Tracks live topological biomarkers, simulating homeostatic regulation pre- and post-clinical intervention[cite: 4].
+1. **In-silico Discovery (Topo-GNN):** Calculates Geometric Tropism Rankings and extracts "Novel Targets" using PyVis heterogeneous pathways.
+2. **3D Manifold Mapping:** Projects physiological pathways onto a curved 3D WebGL space, proving the utilization of Geodesic distances over classical Euclidean metrics.
+3. **TDA Filtration Simulator:** Interactively tracks real-time changes in Betti numbers (β₀ for disconnected components, β₁ for topological cycles) across varying distance radiuses.
+4. **Real-Time Analytics:** Tracks live topological biomarkers, simulating homeostatic regulation pre- and post-clinical intervention.
 
 ---
 
@@ -58,7 +58,7 @@ To run the interactive framework on your local machine:
 
 1. Clone the repository:
 ```bash
-git clone [https://github.com/vothikimanh1007/TCM-TopoGraph.git](https://github.com/vothikimanh1007/TCM-TopoGraph.git)
+git clone [https://github.com/anonymous20252029/TCM-TopoGraph.git](https://github.com/anonymous20252029/TCM-TopoGraph.git)
 cd TCM-TopoGraph
 
 ```
